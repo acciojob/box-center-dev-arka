@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+.centered-box {
+    width: 200px; /* Set width of the box */
+    height: 200px; /* Set height of the box */
+    background-color: lightblue; /* Set background color */
+    border: 2px solid black; /* Set border properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-box p {
+    color: purple; /* Set text color */
+    font-size: 18px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+}
